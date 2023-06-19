@@ -28,7 +28,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "30px",
                 borderRadius: "5px",
                 width: "900px",
                 display: "flex",
@@ -62,7 +61,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "150px",
                 borderRadius: "5px",
                 backgroundColor:"#F7F9FA",
                 width: "900px",
@@ -104,7 +102,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "30px",
                 borderRadius: "5px",
                 width: "900px",
                 display: "flex",
@@ -138,7 +135,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "30px",
                 borderRadius: "5px",
                 width: "900px",
                 display: "flex",
@@ -172,7 +168,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "30px",
                 borderRadius: "5px",
                 width: "900px",
                 display: "flex",
@@ -206,7 +201,6 @@ function FrequentlyAskedQuestions() {
               sx={{
                 border: "1px solid lightgrey",
                 padding: 1,
-                height: "30px",
                 borderRadius: "5px",
                 width: "900px",
                 display: "flex",

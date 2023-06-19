@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Grid,
   IconButton,
   InputBase,
   Paper,
@@ -18,12 +19,17 @@ function NewsLetter() {
       <Typography variant="h6" component="h6" sx={{ fontWeight: "600" }}>
         NewsLetter
       </Typography>
+
       <Typography sx={{ mt: 2, color: "grey", fontSize: "15px" }}>
         Signup to our NewsLetter
       </Typography>
-      <Paper sx={{ padding: 1, background: "#F7F9FC", mt: 1 }}>
-        <InputBase placeholder="Email Address" />
-      </Paper>
+      <Grid container>
+        <Grid item xs={8} md={12}>
+          <Paper sx={{ padding: 1, background: "#F7F9FC", mt: 1 }}>
+            <InputBase placeholder="Email Address" />
+          </Paper>
+        </Grid>
+      </Grid>
       <Button
         variant="contained"
         sx={{
@@ -34,14 +40,29 @@ function NewsLetter() {
       >
         SEND
       </Button>
-      <Stack direction="row" spacing={1} sx={{mt:2}}>
-        <IconButton sx={{color:'black',boxShadow:"0px 6px 27px rgba(49, 49, 49, 0.17)"}}>
+      <Stack direction="row" spacing={1} sx={{ mt: 2, mb: 5 }}>
+        <IconButton
+          sx={{
+            color: "black",
+            boxShadow: "0px 6px 27px rgba(49, 49, 49, 0.17)",
+          }}
+        >
           <FacebookIcon />
         </IconButton>
-        <IconButton sx={{color:'black',boxShadow:"0px 6px 27px rgba(49, 49, 49, 0.17)"}}>
+        <IconButton
+          sx={{
+            color: "black",
+            boxShadow: "0px 6px 27px rgba(49, 49, 49, 0.17)",
+          }}
+        >
           <LinkedInIcon />
         </IconButton>
-        <IconButton sx={{color:'black',boxShadow:"0px 6px 27px rgba(49, 49, 49, 0.17)"}}>
+        <IconButton
+          sx={{
+            color: "black",
+            boxShadow: "0px 6px 27px rgba(49, 49, 49, 0.17)",
+          }}
+        >
           <TwitterIcon />
         </IconButton>
       </Stack>
