@@ -5,7 +5,7 @@ import React from "react";
 
 function FrequentlyAskedQuestions() {
   return (
-    <Box>
+    <Box sx={{mt:2}}>
       <Typography
         variant="h5"
         component="h5"
@@ -29,7 +29,7 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                width: "900px",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}
@@ -62,8 +62,8 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                backgroundColor:"#F7F9FA",
-                width: "900px",
+                backgroundColor: "#F7F9FA",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}
@@ -71,8 +71,9 @@ function FrequentlyAskedQuestions() {
               <Typography
                 sx={{
                   fontSize: "14px",
-                  display:'flex',
-                  alignItems:'center',justifyContent:'center'
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
                 In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
@@ -103,7 +104,7 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                width: "900px",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}
@@ -136,7 +137,7 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                width: "900px",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}
@@ -169,7 +170,7 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                width: "900px",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}
@@ -202,7 +203,7 @@ function FrequentlyAskedQuestions() {
                 border: "1px solid lightgrey",
                 padding: 1,
                 borderRadius: "5px",
-                width: "900px",
+                width: "1200px",
                 display: "flex",
                 justifyContent: "space-between",
               }}

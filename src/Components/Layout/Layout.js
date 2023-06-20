@@ -14,6 +14,8 @@ import ContactUs from "../Footer/ContactUs/ContactUs";
 import NewsLetter from "../Footer/NewsLetter/NewsLetter";
 import DownloadApp from "../DownloadApp/DownloadApp";
 import FrequentlyAskedQuestions from "../FrequentlyAskedQuestions/FrequentlyAskedQuestions";
+import PricePlans from "../PricePlans/PricePlans";
+import YouCanDo from "../WhatYouCanDo/YouCanDo";
 
 function Layout() {
   const theme = createTheme({
@@ -24,9 +26,11 @@ function Layout() {
   });
   return (
     <ThemeProvider theme={theme}>
+      <YouCanDo />
+      <PricePlans />
       <FrequentlyAskedQuestions />
       <Grid container>
-        <Grid item xs={12} sx={{mt:2}}>
+        <Grid item xs={12} sx={{ mt: 2 }}>
           <DownloadApp />
         </Grid>
       </Grid>
